@@ -1,4 +1,5 @@
-export const dynamic = 'force-dynamic';
+git rm data/society.db-shm
+git rm data/society.db-walexport const dynamic = 'force-dynamic';
 import { NextResponse } from 'next/server';
 import { getSessionUser } from '@/lib/auth';
 import { db } from '@/lib/db';
